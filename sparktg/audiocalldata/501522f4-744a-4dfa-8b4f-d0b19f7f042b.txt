@@ -1,0 +1,1 @@
+{"data":"","number":"9990484150","agent":"8659","svc":"784","xnid":"501522f4-744a-4dfa-8b4f-d0b19f7f042b","time":1590401748578,"type":"Outbound","event":"AgentHangup"}

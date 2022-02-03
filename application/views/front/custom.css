@@ -1,0 +1,1348 @@
+/* HELPER CLASES */
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.btn-rounded {
+    border-radius: 24px !important;
+}
+
+
+
+
+.topbar {
+    border-bottom: 1px solid #eaeeee;
+}
+
+.topbar .row-item {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar .logo-box img {
+    width: 130px;
+}
+
+.topbar .middle-box ul {
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.topbar .middle-box ul li {
+    margin: 0 16px;
+    display: inline-block;
+}
+
+.topbar .middle-box ul li a {
+    transition: 0.35s all ease-in-out;
+}
+
+.topbar .middle-box ul li a:hover {
+    color: #fa8819;
+}
+
+.topbar .last-box {
+    display: flex;
+    align-items: center;
+}
+
+.topbar .row-item .col-item {
+    margin: 0 10px;
+}
+
+.topbar .dropdown .btn {
+    color: white;
+    background: #fa8819;
+    border-color: #fa8819;
+}
+
+.topbar .col-item .btn i {
+    margin-right: 5px !important;
+}
+
+.topbar .recharge-wallet-box,
+.topbar .phone-number-box,
+.topbar .login-box,
+.topbar .user-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.topbar .phone-number-box {
+    color: #fa8819;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.header {
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.22);
+}
+
+.header .wrapper {
+    padding: 16px 0;
+}
+
+.header .wrapper .logo-box img {
+    width: 130px;
+}
+
+.header .wrapper .menu-box .menu-items {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.header .wrapper .menu-box .menu-items .menu-item {
+    margin: 0 14px;
+    display: inline-block;
+}
+
+
+
+.header .wrapper .menu-box .menu-item a {
+    transition: 0.35s all ease-in-out;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.header .wrapper .menu-box .menu-item a:hover {
+    color: #fa8819;
+}
+
+.header .wrapper .menu-box .menu-item a.btn:hover {
+    color: white;
+}
+
+.header .wrapper .logo-box .menu-btn {
+    width: 25px;
+    margin-right: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.header .wrapper .col-item {
+    display: none;
+}
+
+.header.fixed {
+    display: none;
+}
+
+.header.fixed {
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+    background-color: white;
+}
+
+.header.fixed.show {
+    display: block;
+}
+
+.call-to-action {
+    padding: 10px 0;
+}
+
+.call-to-action .container {
+    text-align: center;
+}
+
+.call-to-action .box {
+    display: inline-block;
+    background: #fff;
+    border: 2px solid #fa8819;
+    border-radius: 28px;
+    padding: 6px 24px;
+}
+
+.call-to-action .box .title {
+    font-size: 24px;
+    font-weight: 600;
+} 
+
+.call-to-action .btn {
+    padding: 12px 20px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.horoscope-section {
+    padding: 20px 0 40px;
+    background: #edebeb;
+}
+
+.horoscope-section .title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.horoscope-section .title span {
+    font-size: 36px;
+    color: #fa8819;
+}
+
+.horoscope-section .card {
+    position: relative;
+    padding: 20px 16px;
+    border-radius: 12px;
+}
+
+.horoscope-section .card img {
+    width: 40px;
+    display: block;
+    margin: auto;
+}
+
+.horoscope-section .card span {
+    display: block;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.horoscope-section .card .name {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #121212;
+}
+
+.horoscope-section .card .date {
+    font-size: 13px;
+    color: #555555;
+}
+
+.sidebar {
+    top: 66px;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    z-index: 100;
+    position: fixed;
+    background: white;
+    box-sizing: border-box;
+    transition: left 0.4s ease;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.22);
+}
+
+.sidebar.show {
+    left: 0px;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90%;
+    list-style: none;
+    overflow-y: scroll;
+}
+
+.sidebar ul li {
+    line-height: 50px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.sidebar ul li a {
+    position: relative;
+    color: #222222;
+    font-size: 14px;
+    padding-left: 40px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    border-left: 5px solid transparent;
+}
+
+.sidebar ul li a:hover {
+    color: #fa8819;
+    border-left-color: #fa8819;
+}
+
+.sidebar ul ul {
+    position: static;
+    display: none;
+}
+
+.sidebar ul ul.show {
+    display: block;
+}
+
+.sidebar ul ul li {
+    line-height: 42px;
+    border-bottom: none;
+}
+
+.sidebar ul ul li a {
+    font-size: 14px;
+    color: #333333;
+    padding-left: 60px;
+}
+
+.sidebar ul li a i {
+    top: 50%;
+    right: 16px;
+    font-size: 14px;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.sidebar ul li a i.rotate {
+    transform: translateY(-50%) rotate(-180deg);
+}
+
+.carousel-caption {
+    top: 44%;
+    left: 6%;
+    width: 42%;
+    padding: 24px 0;
+    text-align: left;
+    transform: translateY(-50%);
+}
+
+.carousel-caption  h4 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #fa8819;
+    text-shadow: none;
+    animation-duration: 1s;
+    animation-delay: 35ms;
+}
+
+.carousel-caption  h3 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #000;
+    text-shadow: none;
+    animation-duration: 1s;
+    animation-delay: 70ms;
+}
+
+.carousel-caption  h1 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #000;
+    text-shadow: none;
+    animation-duration: 1s;
+    animation-delay: 70ms;
+}
+
+.carousel-caption  p {
+    font-size: 24px;
+    font-weight: 800;
+    color: #fa8819;
+    text-shadow: none;
+    animation-duration: 1s;
+    animation-delay: 140ms;
+}
+
+.how-we-work {
+    width: 100%;
+    padding: 32px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background: url(../images/home-wall03.jpeg);
+}
+
+.how-we-work h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+#horoscope-carousel {
+    position: relative;
+}
+
+#horoscope-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+#horoscope-carousel .owl-nav .owl-next {
+    float: right;
+    margin-right: -30px;
+}
+
+#horoscope-carousel .owl-nav .owl-prev {
+    float: left;
+    margin-left: -30px;
+}
+
+#horoscope-carousel .owl-dots {
+    display: none;
+}
+
+
+
+
+
+
+@media (max-width: 1300px) {
+     .carousel-caption  h4 {
+        font-size: 22px;
+    }
+
+    .carousel-caption  h3 {
+        font-size: 27px;
+    }
+    
+     .carousel-caption  h1 {
+        font-size: 40px;
+    }
+    
+     .carousel-caption  p {
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .topbar .middle-box {
+        display: none;
+    }
+
+     .carousel-caption  h4 {
+        font-size: 22px;
+    }
+
+    .carousel-caption  h3 {
+        font-size: 26px;
+    }
+    
+     .carousel-caption  h1 {
+        font-size: 35px;
+    }
+    
+     .carousel-caption  p {
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .topbar {
+        display: none;
+    }
+    div#notifySucess {
+        left: 0;
+        bottom: 134px;
+    }
+    .askastro .callbtn.msgcame .follow.btn-style1 {
+        bottom: 27px;
+    }
+    
+    
+    .askastro .callbtn.msgcame .wrppr i.fa {
+        left: 33px;
+    }
+    .header .wrapper .menu-box {
+        position: fixed;
+        background-color: #fff;
+        height: calc(100% - 150px);
+        top: 63px;
+        left: 0;
+        transition: all .5s ease-in-out;
+        z-index: 9;
+        left: -320px;
+        opacity: 0;
+
+    }
+    .header .wrapper .menu-box.show {
+        max-width: 320px;
+        width: 100%;
+        left: 0;
+        opacity: 1;
+        overflow-y: auto;
+    }
+    .astro-recharge+.col-lg-5.col-md-5.col-sm-12.col-xs-12 div#myModalopn {
+        top: 64px;
+    }
+    .header {
+        display: none;
+    }
+
+    .header .wrapper .menu-box {
+        display: none;
+    }
+
+    .header .wrapper .action-btns {
+        display: none;
+    }
+
+    .header.fixed {
+        display: block;
+    }
+
+    .header .wrapper .logo-box .menu-btn {
+        display: inline-block;
+    }
+
+    .header .wrapper .col-item {
+        display: block;
+    }
+
+    .call-to-action .btn {
+        display: block;
+        margin-left: 0;
+        margin-top: 16px;
+    }
+
+    body #packname1000 {
+        background-color: #fff;
+    }
+    .call-to-action .box .title {
+        font-size: 16px;
+        font-weight: 600;
+    } 
+
+    .header .action-btns {
+        display: none;
+    }
+
+    .topbar .middle-box {
+        display: none;
+    }
+
+     .carousel-caption  h4 {
+        font-size: 20px;
+    }
+
+    .carousel-caption  h3 {
+        font-size: 24px;
+    }
+    
+     .carousel-caption  h1 {
+        font-size: 30px;
+    }
+    
+     .carousel-caption  p {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 442px) {
+    .carousel-caption {
+        top: 0%;
+        left: 4%;
+        width: 90%;
+        padding: 24px 0;
+        text-align: center;
+        transform: translateY(0%);
+    }
+
+     .carousel-caption  h4 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .carousel-caption  h3 {
+        font-size: 18px;
+    }
+    
+     .carousel-caption  h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+     .carousel-caption  p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .horoscope-section .title {
+        font-size: 28px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .horoscope-section .title span {
+        font-size: 28px;
+    }    
+
+    .horoscope-section .card {
+        padding: 12px;
+    }
+
+    .horoscope-section .card .name {
+        font-size: 13px;
+    }
+    
+    .horoscope-section .card .date {
+        font-size: 8px;
+    }
+
+    #horoscope-carousel .owl-nav .owl-next {
+        margin-right: -12px;
+    }
+
+    #horoscope-carousel .owl-nav .owl-prev {
+        margin-left: -12px;
+    }
+
+    #horoscope-carousel .owl-nav .owl-next img {
+        width: 24px;
+    }
+
+    #horoscope-carousel .owl-nav .owl-prev img {
+        width: 24px;
+    }
+}
+
+
+.header-new .wrapper+a,
+.header-new+a,
+.menu+.last-box .col-item+a.btn.btn-default.btn-rounded,
+.menu+.last-box+a.btn.btn-default.btn-rounded,
+.header.fixed>a.btn.btn-default.btn-rounded,
+.header.fixed> .container-fluid>a.btn.btn-default.btn-rounded,
+.header.fixed .wrapper>a.btn.btn-default.btn-rounded,
+.first-header-right +a.btn.btn-default.btn-rounded {
+    display: none;
+}
+
+.header-new .wrapper .menu .top ul {
+    padding-left: 0;
+}
+body .header {
+    box-shadow: none;
+}
+
+body .header-new {
+    border: none;
+}
+
+body .header-new .wrapper {
+    padding-bottom: 0;
+   
+}
+
+body .header .wrapper {
+    justify-content: flex-end;
+    padding-top: 0;
+}
+.phone-number-box {
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: 2px solid #fa8819;
+    font-weight: 600;
+}
+.menu {
+    margin-right: 5px;
+}
+body .ast_pagetitle {
+    padding: 90px 0 45px 0;
+    background-size: 100% 100%;
+}
+body .askastro a.online_queue.JoinCheck {
+    width: auto;
+    padding: 5px 5px 5px 10px !important;
+}
+body .askastro a.online_queue.JoinCheck {
+    width: auto;
+    padding: 3px 5px 3px 10px !important;
+    font-size: 18px!important;
+}
+body .askastro a.online_queue.JoinCheck i {
+    font-size: 14px;
+    margin: 0;
+}
+body .header-new .wrapper .menu .top ul li {
+    margin: 0 8px;
+}
+.hero-section {
+    padding-top:80px;
+}
+.logo-box1{
+    display: none;
+}
+.flowchart+.filtertype .action .dropdown-menu>li>a {
+    text-align: left;
+}
+.full-hearder-wrp .header.z-index {
+    z-index: 99;
+}
+/* .flowchart .desk_box .line17 .sprite-consult_wallet_white {
+    display: none;
+} */
+.full-hearder-wrp .header.z-index {
+    z-index: 99;
+}
+.flowchart .sprite-consult_wallet_white {
+    background: url(https://www.onegodmed.com/front-assets/images/wallet-new.png) no-repeat;
+    background-position: 100% 100%!important;
+}
+.baltext {
+    margin-top: 27px;
+}
+body .header-new .wrapper .last-box .btn-rounded {
+    padding: 4px 12px;
+}
+.menu-box .btn-rounded.btn-shadowed {
+    padding: 5px 12px;
+}
+.askastro .callbtn .follow.btn-style1 .btn {
+    font-size: 0;
+}
+
+.askastro .callbtn .follow.btn-style1 .btn i {
+    font-size: 14px;
+}
+
+.askastro .callbtn .follow.btn-style1 .btn:focus {
+    outline: none;
+}
+body .header-new .wrapper .last-box .dropdown-menu a {
+    text-align: left;
+    padding: 3px 10px;
+    color: #333;
+}
+
+body .header-new .wrapper .last-box .dropdown-menu {
+    min-width: 120px;
+}
+body .header-new .wrapper .last-box .dropdown-menu .divider {
+    display: none;
+}
+body .header-new .wrapper .last-box .dropdown-menu a:hover {
+    background-color: transparent;
+    color: #fa8819!important;
+}
+@media only screen and (min-width:1100px) {
+    .header.fixed .logo-box>a.btn.btn-default.btn-rounded{
+        display: none;
+    }
+    .full-hearder-wrp .header .wrapper {
+        padding-top: 5px;
+    }
+    body .ast_about_wrapper {
+        padding-top: 100px!important;
+    }
+    body div#login-dialog {
+        margin: 150px auto 0 auto;
+    }
+    div#header-fixed.show {
+        display: none!important;
+    }
+    .first-header-right {
+        width: calc(100% - 220px);
+    }
+    
+    .upper, body .header-new .wrapper .last-box,.menu-box ul.menu-items {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .menu-box ul.menu-items {
+        padding: 0;
+        list-style: none;
+    }
+    
+    body .header-new .bottom .wrapper {
+        justify-content: flex-end;
+        padding: 0;
+    }
+    
+    .upper {
+        justify-content: flex-end;
+    }
+    
+    .menu-box ul.menu-items li.menu-item {
+        margin: 0 10px;
+    }
+    
+    .full-hearder-wrp .header-new,.full-hearder-wrp+.header,.full-hearder-wrp .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: #fff;
+    }
+
+     .full-hearder-wrp+.header,.full-hearder-wrp .header{
+        top:42px;
+        
+    }
+    body .header-new .wrapper {
+        padding-top: 0;
+    }
+    
+    .first-header-right {
+        padding-top: 0;
+    }
+    .login-box .btn-rounded {
+        font-size: 13px;
+        padding: 5px 12px;
+    }
+    
+    .full-hearder-wrp+.header .wrapper, .full-hearder-wrp .header .wrapper {
+        padding-bottom: 5px;
+    }
+    .full-hearder-wrp {
+        position: relative;
+    }
+    
+    .logo-box1 {
+        position: fixed;
+        z-index: 99999999;
+        max-width: 227px;
+        top: 14px;
+        left: 24px;
+        display: block;
+    }
+    
+    .full-hearder-wrp .logo-box {
+        visibility: hidden;
+    }
+    .header.fixed.show .wrapper {
+        justify-content: space-between;
+        padding-top: 16px;
+    }
+   .first-header-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 8px 24px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: flex-end;
+    padding-right: 0;
+    padding-bottom:2px;
+    padding-top: 0;
+}
+    body #packname1000 {
+        background-color: #fff;
+    }
+    
+    .walletpage .astro-recharge .col-lg-4.col-md-4.col-sm-6.col-xs-6 {
+        margin-bottom: 40px;
+    }
+    
+    /* .walletpage .astro-recharge .col-lg-4.col-md-4.col-sm-6.col-xs-6 .package-card {
+        min-height: 386px;
+    } */
+}
+@media only screen and (max-width:992px) {
+    .header .wrapper .menu-box .menu-items {
+        padding-left: 0;
+    }
+    body .showmobile {
+        bottom: 48px;
+    }
+    body .hero-section {
+        padding-top: 32px;
+    }
+    .header .wrapper .menu-box.show ul.menu-items li.menu-item a {
+        width: 100%;
+        font-size: 14px;
+        border-bottom: 1px solid #ececec;
+        color: #000;
+        padding: 15px 15px!important;
+        text-transform: capitalize;
+        margin: 0;
+        border-radius: 0!important;
+    }
+    
+    .header .wrapper .menu-box .menu-item a .btn-rounded.btn-shadowed {
+        background-color: transparent;
+    }
+    
+    .header .wrapper .menu-box .menu-item a.btn-rounded.btn-shadowed {
+        box-shadow: none;
+        background-color: transparent;
+        color: #000;
+        border: none;
+        padding: 0;
+    }
+    
+    body .header .wrapper .menu-box .menu-item a {
+        text-align: left;
+        width: 100%;
+        display: inline-block;
+    }
+    
+    body .header .wrapper .menu-box.show ul.menu-items li.menu-item {
+        margin: 0;
+    }
+    
+    .header .wrapper .menu-box.show ul.menu-items li.menu-item ul.dropdown-menu {
+        width: 100%;
+        z-index: 0;
+        padding: 0;
+    }
+    body .header-new .wrapper .last-box {
+        display: none!important;
+    }
+    body .ast_pagetitle {
+        padding: 90px 0 45px 0;
+        background-size: 100% 100%;
+    }
+    
+    .package-card .title {
+        padding: 15px 0!important;
+        font-size: 16px;
+    }
+    
+    body .package-card .box.top .wrapper {
+        padding: 6px;
+    }
+    
+    body .package-card .box.top .wrapper .you-pay-box .value, body .package-card .box.top .wrapper .you-get-box .value {
+        font-size: 14px;
+        margin: 3px;
+    }
+    
+    .package-card .box.top .wrapper .actuall-you-get-box .value {
+        font-size: 18px;
+    }
+    body .fliter-box {
+        bottom: 49px;
+    }
+    .logo-box a.btn.btn-default.btn-rounded {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+    }
+    body .header .wrapper {
+        justify-content: space-between;
+        padding:15px 0
+        
+    }
+   
+    .header .wrapper .col-item ul.dropdown-menu {
+        padding-top: 0;
+        width: auto;
+        min-width: auto;
+    }
+    .header .wrapper .logo-box a img {
+        position: relative;
+        top: -5px;
+       
+    }
+    .header .wrapper .logo-box img.menu-btn {
+        height: 25px;
+        object-fit: contain;
+    }
+    .header .wrapper .logo-box {
+        display: flex;
+        width: 64%;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .header .wrapper .col-item ul.dropdown-menu li a {
+        text-align: left;
+        padding: 5px;
+    }
+    .header .wrapper .menu-box.show ul.menu-items li.menu-item ul.dropdown-menu {
+        position: static;
+        min-width: auto;
+        border: 0;
+        box-shadow: none;
+    }
+    .header .wrapper .menu-box.show .dropdown.open .dropdown-backdrop {
+        display: none;
+    }
+    .header .wrapper .menu-box.show ul.menu-items li.menu-item ul.dropdown-menu a {
+        text-align: left;
+        color: #000;
+    }
+    .astro-recharge >h3 {
+        margin-bottom: 20px;
+    }
+    
+    .package-card .offer .text {
+        font-size: 12px;
+    }
+    
+    body .astro-recharge .col-lg-4 {
+        margin: 15px 0;
+    }
+    .floating-btns {
+        background-color: gray;
+    }
+    body .onlineastro .online-inner i.fa {
+        margin-left: auto;
+        right: 50px;
+        left: auto;
+    }
+    
+    body .askastro .onlineastro {
+        padding-right: 10px;
+    }
+    
+    body .wrppr .notonline:first-child .online_queue {
+        padding-left: 21px!important;
+    }
+    
+    body .askastro .astronew-area {
+        margin-right: 10px;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    div#sidebar {
+        overflow-x: hidden;
+        overflow-y: auto;
+        border: 2px solid #fa8819;
+    }
+    
+    div#sidebar button#pay_now {
+        margin-right: 10px;
+    }
+    
+    .astro-recharge+.col-lg-5.col-md-5.col-sm-12.col-xs-12 div#myModalopn {
+        top: 64px;
+    }
+    body .askastro a.online_queue.JoinCheck {
+        width:100%;
+        position: absolute;
+        right: 10px;
+        max-height: 33px;
+        top: -17px;
+        min-height: 33px;
+        line-height: 25px;
+        min-width:135px;
+    }
+    body ul.as_profile_text_ul+.callbtn {
+        position: absolute!important;
+        bottom: 20px;
+    }
+    body .onlineastro .online-inner i.fa {
+        left: auto!important;
+        right: 50px!important;
+        top: 12px!important;
+    }
+    
+    .askastro .callbtn .follow.btn-style1 {
+        left: auto;
+        right: 81px;
+        bottom: 7px;
+    }
+   
+    .header .wrapper .menu-box.show ul.menu-items li.menu-item {
+        margin: 15px 10px 15px 0;
+        display: block;
+    }
+    
+   
+  }
+
+  @media only screen and (max-width:1100px) and (min-width:767px)  {
+        .package-card{
+            min-height: 330px;
+        }
+        
+
+
+body .modal-design,.socal_md {
+    background-color: #fff;
+}
+
+.socal_md {
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+}
+
+div#sidebar {
+    background-color: #fff;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.socal_md ul {
+    max-width: 450px;
+    margin: 0 auto;
+}
+  }
+
+
+
+
+body .header-new .wrapper .last-box .col-item {
+    margin: 0 10px;
+}
+body .header-new .wrapper .last-box .col-item:nth-child(3) {
+    margin-right: 0;
+}
+
+/* body .header-new .wrapper .last-box .col-item .btn-rounded {
+    box-shadow: 0px 8px 20px rgb(0 0 0 / 32%);
+} */
+
+body .discount-image img {
+    display: none;
+}
+
+body .discount-image span {
+    display: inline-flex;
+    position: static;
+    transform: none;
+}
+
+body .askastro .discount-area {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: #ff8820;
+}
+body .li .astrologer_box.main_box {
+    border: 0;
+    box-shadow: 0 2px 9px rgba(0,0,0,.1);
+    border-radius: 22px;
+    background-color: #fff;
+}
+body .chat-to-astro .astroheading {
+    padding-top: 0;
+}
+
+body .chat-to-astro {
+    background-color: #f3eeee;
+    padding-top: 33px;
+}
+.astro-info .as_profile_font {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+span.ratingnumber,
+span.ra,
+body .as_profile_text_ul li {
+    color: #000;
+}
+ul.as_profile_text_ul i.fa {
+    color: #ff8820;
+    font-size: 16px;
+}
+body .askastro a.online_queue {
+    border-radius: 68px!important;
+    padding: 3px 5px 3px 20px !important;
+}
+body .phone-icon {
+    right: 2px;
+}
+body .phone-icon {
+    right: 2px;
+}
+body .onlineastro .online-inner .online_queue {
+    padding-right: 10px!important;
+    width: auto;
+    padding-left: 30px!important;
+}
+body .callbtn .wrppr .notonline i.fa,
+body .onlineastro .online-inner i.fa {
+    right: auto;
+    left: 10px;
+}
+body .wrppr .notonline a.online_queue {
+    padding-left: 23px!important;
+}
+body .chat-to-astro .wrppr .notonline a.online_queue {
+    padding-left: 25px!important;
+}
+body .onlineastro .online-inner i.fa {
+    right: auto;
+}
+span.ratingnumber:after {
+    right: 0px;
+    width: 2px;
+    content: "";
+    position: absolute;
+    background-color: gray;
+    height: 15px;
+    top: 0;
+}
+
+span.ratingnumber {
+    position: relative;
+    padding-right: 10px;
+}
+
+.review_mobile .fa-star {
+    color: #ffe234;
+}
+.rating-wrap .review_mobile+span i:before {
+    content: "\f058";
+    color: #ffe234;
+}
+body .askastro .astronew-area {
+    width: 35px;
+    height: 35px;
+    background-color: #39b9e3;
+    border-radius: 50%;
+}
+
+body .askastro .astronew-area span {
+    line-height: 35px;
+}
+
+
+
+
+.askastro .callbtn .follow.btn-style1 .btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0!important;
+    margin-right: 10px;
+}
+
+body .callbtn {
+    display: flex;
+    align-items: center;
+    bottom: -13px;
+    right: 0;
+}
+
+.askastro .callbtn .follow.btn-style1 .btn a,
+.askastro .callbtn .follow.btn-style1 .btn span{
+    font-size: 0;
+}
+
+.askastro .callbtn .follow.btn-style1 .btn i {
+    margin-right: 0;
+}
+
+body p.msg {
+    bottom: 16px;
+    right: 17px;
+    font-size: 10px;
+}
+
+body .astrologer_box.main_box {
+    min-height: 235px;
+}
+
+.askastro .callbtn .follow.btn-style1 {
+    margin-bottom: 0;
+}
+
+
+body .callbtn .wrppr .notonline {
+    top: 0;
+}
+.first-header-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 8px 24px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: flex-end;
+    padding-right: 0;
+    padding-bottom:4px;
+}
+.checkmark-circle {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: block;
+    vertical-align: top;
+    margin: auto;
+}
+
+.checkmark-circle .background {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #12b912;
+    position: absolute;
+}
+
+.checkmark-circle .checkmark {
+    border-radius: 5px;
+}
+
+.checkmark-circle .checkmark:after {
+    opacity: 1;
+    height: 30px;
+    width: 15px;
+    -webkit-transform-origin: 0;
+    -moz-transform-origin: 0;
+    -ms-transform-origin: 0;
+    -o-transform-origin: 0;
+    transform-origin: 0;
+    border-right: 5px solid #fff;
+    border-top: 5px solid #fff;
+    border-radius: 2.5px !important;
+    content: '';
+    left: 42%;
+    top: 50%;
+    position: absolute;
+}
+
+.checkmark-circle .checkmark.draw:after {
+    -webkit-animation-delay: 300ms;
+    -moz-animation-delay: 300ms;
+    animation-delay: 300ms;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-name: checkmark;
+    -moz-animation-name: checkmark;
+    animation-name: checkmark;
+    -webkit-transform: scaleX(-1) rotate(
+135deg
+);
+    -moz-transform: scaleX(-1) rotate(135deg);
+    -ms-transform: scaleX(-1) rotate(135deg);
+    -o-transform: scaleX(-1) rotate(135deg);
+    transform: scaleX(-1) rotate(
+135deg
+);
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+div#notifySucess .modal-body p {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+div#notifySucess {
+    background-color: #fa8819;
+    position: fixed;
+    left: 11.5%;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    bottom: 50px;
+}
+.notifyModal{
+    display: none;
+}
